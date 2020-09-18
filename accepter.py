@@ -6,8 +6,6 @@ parent = pathlib.Path(__file__).resolve().parent
 mypath = pathlib.Path(parent)
 buttonpath = mypath / 'button.png'
 loadingpath = mypath / 'loading.png'
-time.sleep(2)
-pyautogui.moveTo(1770,264)
 print("Starting Search")
 while True:
     x,y = pyautogui.position()
